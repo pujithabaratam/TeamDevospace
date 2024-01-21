@@ -1,0 +1,568 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+.LetterC
+{
+  color:red;
+  font-size:20px;
+  font-weight:bolder;
+  margin-left: 20px;
+}
+.nav-items{
+  margin-top: 13px;
+  height: 15vh;
+  margin-left: 420px;
+}
+.NavBar{
+    margin-top: 10px;
+    height: 10vh;
+    display: flex;
+  }
+
+  .nav-items a {
+    text-decoration: none;
+    color: black;
+    padding: 0 1.5rem;
+  }
+  .nav-items a:hover{
+    color: chartreuse;
+    cursor: pointer;
+
+  }
+.nav-items input{
+    border-radius: 20px;
+    width: 80px;
+    height: 25px;
+    background-color: red;
+  }
+  .nav-items input:hover{
+    background-color: chocolate;
+    cursor: pointer;
+  }
+  .heading{
+    display: flex;
+    margin-left: 35%;
+    height: 10vh;
+  }
+  .description{
+    text-align: center;
+    height: 10vh;
+  }
+.button-items input{
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(169, 169, 169, 0.296);
+    margin-right: 15px;
+    width:150px;
+    height:25px;
+}
+.button-items
+{
+  margin-top: 13px;
+  margin-right: 205px;
+}
+.button-items1
+{
+  margin-top: 13px;
+  margin-right: 410px;
+}
+.button-items1 input{
+  border-radius: 20px;
+  background-color: rgba(169, 169, 169, 0.296);
+  margin-right: 15px;
+  width:150px;
+  height:25px;
+}
+.Buttons{
+  text-align: center;
+}
+.button-items input:hover {
+  background-color: chocolate;
+  transition: ease-in-out 0.2s;
+}
+.button-items1 input:hover {
+  background-color: chocolate;
+  transition: ease-in-out 0.2s;
+}
+.search-container input{
+  margin-top: 20px;
+  margin-left: 465px;
+  border-radius: 20px;
+  align-items: center;
+  width:600px;
+  height: 30px;
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  top: 36%;
+  transform: translateY(-50%);
+  right:30%;
+  cursor: pointer;
+}
+
+.LeftPart {
+  margin-top: 40px;
+  margin-left: 50px;
+  float: left;
+  width:600px;
+  height:150px;
+  margin-bottom: 70px;
+  box-sizing: border-box;
+}
+.RightPart {
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-bottom: 70px;
+  float: right;
+  width:600px;
+  height:500px;
+}
+.LeftPart1 {
+  float: left;
+}
+.RightPart1 {
+  float: right;
+}
+.LeftPart2 {
+  float: left;
+}
+.RightPart2 {
+  float: right;
+}
+.Updates
+{
+  margin-left: 60px;
+  width:500px;
+  height:700px;
+  float: left;
+  border-radius: 20px;
+  background-color: beige;
+}
+.HeadingPart{
+  margin-bottom:10px;
+  margin-top:5px;
+  margin-left:18px;
+  background-color:black;
+  width:460px;
+  height:35px;
+  align-items: center;
+  color:aliceblue;
+  border-radius:20px;
+}
+.Updates p{
+  margin-left: 10px;
+  margin-top:15px;
+}
+.ImagePart
+{
+  margin-left: 350px;
+  float: right;
+  height:700px;
+  width:500px;
+  position: relative;
+  left:80px;
+  top:150px;
+  background-color:aqua;
+}
+.Image1
+{
+  width:290px;
+  height:300px;
+  position: relative;
+  top: 200px;
+  left:300px;
+}
+.nav-items1
+{
+  margin-left: 125px;
+  margin-top: 50px;
+}
+.nav-items1 a{
+  margin-right: 20px;
+}
+.nav-items1 a:hover{
+  color:crimson;
+  text-decoration: underline;
+
+}
+.updates-row
+{
+  display:flex;
+  justify-content: space-evenly;
+}
+.Box-1{
+  margin-left: 20px;
+  margin-top: 40px;
+  border-radius: 15px;
+  height: 450px;
+  width: 300px;
+  background-color: black;
+  color:azure;
+  padding:20px;
+}
+.Box-1 h2{
+  margin-top: 15px;
+  margin-left: 22px;
+  font-size:18px;
+  position: relative;
+  top: 20px;
+}
+.Box-1 h3{
+  font-size:18px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+  position: relative;
+  top:30px;
+}
+#Price{
+  position: relative;
+  left: 20px;
+}
+.List
+{
+  margin-top: 15px;
+  font-size: 15px;
+}
+.List li{
+  position: relative;
+  left:20px;
+  place-items: 10px;
+  margin-bottom: 5px;
+}
+.Box-1 input{
+ position: relative;
+ left:45px;
+ top: 35px;
+ width:170px;
+ height:35px;
+ border-radius: 10px;
+ background-color: brown;
+ color: azure;
+}
+.Box-2{
+  margin-left: 20px;
+  margin-top: 40px;
+  border-radius: 15px;
+  height: 450px;
+  width: 300px;
+  background-color: black;
+  color:azure;
+  padding:20px;
+}
+.Box-2 h2{
+  margin-top: 23px;
+  margin-left: 15px;
+  font-size:20px;
+  position: relative;
+  top: 20px;
+  font-size:18px;
+}
+
+.Box-2 input{
+  position: relative;
+  left:50px;
+  top: 30px;
+  width:170px;
+  height:35px;
+  border-radius: 10px;
+  background-color: brown;
+  color: azure;
+ }
+ .Box-3{
+  margin-left: 20px;
+  margin-top: 40px;
+  border-radius: 15px;
+  height: 450px;
+  width: 300px;
+  background-color: black;
+  color:azure;
+  padding:20px;
+}
+.Box-3 h2{
+  margin-top: 25px;
+  margin-left: 18px;
+  font-size:18px;
+  position: relative;
+  top: 20px;
+}
+
+.Box-3 input{
+  position: relative;
+  left:50px;
+  top: 28px;
+  width:170px;
+  height:35px;
+  border-radius: 10px;
+  background-color: brown;
+  color: azure;
+ }
+ .Box-4{
+  margin-left: 20px;
+  margin-top: 40px;
+  border-radius: 15px;
+  height: 450px;
+  width: 300px;
+  background-color: black;
+  color:azure;
+  padding:20px;
+  transition: transform 0.3s ease;
+}
+.Box-4 h2{
+  margin-top: 30px;
+  margin-left: 18px;
+  font-size:18px;
+  position: relative;
+  top: 20px;
+}
+
+.Box-4 input{
+  position: relative;
+  left:50px;
+  top: 45px;
+  width:170px;
+  height:35px;
+  border-radius: 10px;
+  background-color: brown;
+  color: azure;
+ }
+ .Box-1:hover {
+  transform: scale(1.05); 
+}
+.Box-2:hover {
+  transform: scale(1.05); 
+}
+.Box-3:hover {
+  transform: scale(1.05); 
+}
+ .Box-4:hover {
+  transform: scale(1.05);
+}
+ .MainPart
+ {
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+ }
+ .Work{
+  margin-left: 4%;
+  height: 520px;
+  width: 93%;
+  background-color:white;
+  margin-bottom: 100px;
+ }
+ .communi{
+  margin-top: 235px;
+  height: 210px;
+  width: 200px;
+  margin-bottom: 50px;
+ }
+ .communi img{
+  width:200px;
+  height:120px;
+ }
+ .Part1{
+  height: 160px;
+  width: 320px;
+ }
+ .Part2{
+  height: 160px;
+  width: 320px;
+ }
+ .Part3{
+  height: 160px;
+  width: 320px;
+ }
+ .Part4{
+  height: 160px;
+  width: 320px;
+ }
+ .Part5{
+  height: 160px;
+  width: 320px;
+ }
+ .Part6{
+  height: 160px;
+  width: 320px;
+ }
+ .Top{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+ }
+ .Bottom{
+  margin-top: 40px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-evenly;
+
+ }
+ 
+ .dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+.dotcheck {
+  margin-left: 85px;
+  margin-top: 110px;
+  height: 10px;
+  width: 10px;
+  background-color:rgb(204, 66, 28);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+.LeftSide{
+  flex: 0.6;
+  margin-left: 20px;
+  height:370px;
+  width:270px;
+  background-color:rgba(219, 218, 207, 0.362);
+  border-radius: 20px;
+}
+ .Person1
+ {
+  flex: 1;
+  margin: 0 40px;
+  margin-top: 40px;
+  height: 300px;
+  width: 200px;
+  background-color:rgba(219, 218, 207, 0.362);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 15px;
+ }
+ .Person1 img{
+  height: 100px;
+  width: 80px;
+  margin-left: 290px;
+  border-radius: 50px;
+  position: absolute;
+  top: 488%; /* Align the top of the image to the middle of the container */
+  left: 17%; /* Align the left side of the image to the middle of the container */
+ }
+ .checked {
+  color:yellow;
+}
+.unchecked {
+  color:grey
+}
+ .Person2
+ {
+  flex: 1;
+  margin: 0 40px;
+  margin-top: 40px;
+  height: 300px;
+  width: 200px;
+  background-color:rgba(219, 218, 207, 0.362);
+  border-radius: 20px;
+  padding: 1%;
+ }
+ .Person2 img{
+  height: 100px;
+  width: 80px;
+  margin-left: 240px;
+  border-radius: 50px;
+  position: absolute;
+  top: 489%; 
+  left: 43%; 
+ }
+ .Person3
+ {
+  flex: 1;
+  margin: 0 40px;
+  margin-top: 40px;
+  height: 300px;
+  width: 200px;
+  background-color:rgba(219, 218, 207, 0.362);
+  border-radius: 20px;
+  padding: 1%;
+ }
+ .Person3 img{
+  height: 100px;
+  width: 80px;
+  margin-left: 200px;
+  border-radius: 50px;
+  position: absolute;
+  top: 489%; 
+  left: 69%; 
+ }
+ .RightSide{
+  flex: 2;
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  justify-content:space-between;
+ }
+ .PersonInfo{
+  display:flex;
+ }
+ .ContactPart{
+  margin-left: 40px;
+  height: 400px;
+  width:520px;
+ }
+ .InputSection input{
+  width: 240px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: azure;
+ }
+ .ContactPart h1{
+  margin-left:85px;
+  margin-bottom: 15px;
+ }
+ .ContactPart button{
+  margin-left: 10px;
+  width:75px;
+  height: 30px;
+  background-color: crimson;
+  color: aliceblue;
+ }
+ .Contact{
+  display: flex;
+ }
+ .First-Part{
+  margin-top: 25px;
+  display: flex;
+  margin-left: -170px;
+  justify-content: space-evenly;
+ }
+ .Second-Part{
+  display:flex;
+  margin-top: 25px;
+  margin-left: -115px;
+  justify-content: space-evenly;
+ }
+ .Bottom-Part{
+  margin-top: 60px;
+  background-color: black;
+  height:400px;
+ }
+ .Last a{
+  margin-left: 20px;
+  color:aliceblue;
+  margin-right: 20px;
+  margin-bottom: 20px;
+ }
+ .Last a:hover{
+  color: red;
+ }
+ .icons{
+  margin-left: 540px;
+ }
+ .icons i{
+  margin-right: 25px;
+  filter: invert(1);
+ }
+ .icons i:hover{
+  color:burlywood;
+ }
